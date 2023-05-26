@@ -8,10 +8,10 @@ function AboutCard() {
       <Card.Body>
         <blockquote className="blockquote mb-0">
           <p style={{ textAlign: "justify" }}>
-            Hi Everyone, I am <span className="purple">Vinayak Deshpande </span>
-            from <span className="purple"> Latur, Maharashtra.</span>
+            Hi Everyone, I am <span className="purple">Vivek Endole </span>
+            from <span className="purple"> Buldhana, Maharashtra.</span>
             <br />
-            Pursuing Final Year B-Tech From MIT Academy OF Engineering and working as SDE-Intern at Principal Global Services
+            Pursuing Final Year B-Tech From MIT Academy OF Engineering and working as SDE-Intern at Magna Electronics
             <br />
             <br />
             Apart from coding, some other activities that I love to do!

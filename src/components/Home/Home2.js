@@ -1,11 +1,10 @@
 import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
-import myImg from "../../Assets/vinayak.jpg";
+import myImg from "../../Assets/vivek.jpeg";
 import Tilt from "react-parallax-tilt";
 import {
   AiFillGithub,
-  AiOutlineTwitter,
-  AiFillInstagram,
+  AiFillInstagram
 } from "react-icons/ai";
 import { FaLinkedinIn } from "react-icons/fa";
 
@@ -24,7 +23,7 @@ function Home2() {
               <br />
               <br />I am fluent in classics like
               <i>
-                <b className="purple"> C++, Python and Java. </b>
+                <b className="purple"> C, C++ and Python </b>
               </i>
               <br />
               <br />
@@ -33,7 +32,7 @@ function Home2() {
                 <b className="purple">Web Technologies and Products </b> and
                 also in areas related to{" "}
                 <b className="purple">
-                  Feed Forward Neural Network and Natural Launguage Processing.
+                  cybersecurity, cryptography, ethical hacking and networking.
                 </b>
               </i>
               <br />
@@ -48,13 +47,13 @@ function Home2() {
               </i>
               &nbsp; like
               <i>
-                <b className="purple"> React.js and Next.js</b>
+                <b className="purple"> React.js and Node.js</b>
               </i>
             </p>
           </Col>
           <Col md={4} className="myAvtar">
             <Tilt>
-              <img src={myImg} className="img-fluid" alt="avatar" />
+              <img src={myImg} className="img-fluid" alt="avatar"/>
             </Tilt>
           </Col>
         </Row>
@@ -67,7 +66,7 @@ function Home2() {
             <ul className="home-about-social-links">
               <li className="social-icons">
                 <a
-                  href="https://github.com/vinayakdeshpande1"
+                  href="https://github.com/vaendole"
                   target="_blank"
                   rel="noreferrer"
                   className="icon-colour  home-social-icons"
@@ -75,19 +74,10 @@ function Home2() {
                   <AiFillGithub />
                 </a>
               </li>
+             
               <li className="social-icons">
                 <a
-                  href="https://twitter.com/Vinayak55842715?t=YvJhK9HvaGXIjTOlcXT_nA&s=09"
-                  target="_blank"
-                  rel="noreferrer"
-                  className="icon-colour  home-social-icons"
-                >
-                  <AiOutlineTwitter />
-                </a>
-              </li>
-              <li className="social-icons">
-                <a
-                  href="https://www.linkedin.com/in/vinayak-deshpande-5088391a9/"
+                  href="https://www.linkedin.com/in/vivek-endole-3090011b6"
                   target="_blank"
                   rel="noreferrer"
                   className="icon-colour  home-social-icons"
@@ -97,7 +87,7 @@ function Home2() {
               </li>
               <li className="social-icons">
                 <a
-                  href="https://instagram.com/vinayakdeshpande__?igshid=ZmZhODViOGI="
+                  href="https://www.instagram.com/_vivek_endole_/"
                   target="_blank"
                   rel="noreferrer"
                   className="icon-colour home-social-icons"
